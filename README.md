@@ -1,6 +1,11 @@
 SLAMon jBPM WorkItemHandler
 ===========================
 
+[![License][license]](http://www.apache.org/licenses/LICENSE-2.0)
+
+[![Build Status][build]](https://travis-ci.org/Korkkii/slamon-jbpm.svg?branch=separation)
+[![Coverage Status][coverage]](https://coveralls.io/github/Korkkii/slamon-jbpm?branch=separation)
+
 This module provides the SLAMon integration to JBoss Business Process Management Suite (jBPM). Every SLAMon task is represented by a custom work item in jBPM.
 
 SLAMon provides 2 jBPM custom work items:
@@ -187,3 +192,6 @@ Likewise, the DataOutput of each custom work item corresponds to the response da
 
 Please refer the readme files of the SLAMon Agent and the corresponding task types that you are going to use for more details.
 
+[license]: https://img.shields.io/:license-Apache%20License%20v2.0-blue.svg
+[build]: https://travis-ci.org/Korkkii/slamon-jbpm.svg?branch=separation
+[coverage]: https://coveralls.io/repos/Korkkii/slamon-jbpm/badge.svg?branch=separation&service=github
