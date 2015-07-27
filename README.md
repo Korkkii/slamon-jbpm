@@ -87,15 +87,15 @@ A work item handler is a Java class that implement how the work will be executed
 
 The module can be built with the following maven command:
 
-    mvn package
+    gradle build
 
-The generated package will be located in the target folder.
+The generated package will be located in the build/libs folder.
 
 ##### Upload the generated SLAMon jbpm jar package to jBPM via Business Central #####
 
 Click Authoring -> Artifact repository.
 
-In the Artifact repository page, click Upload.
+In the Artifact repository page, click Upload and provide artifact information.
 
 ##### Add the SLAMon jbpm jar package to project dependencies #####
 
