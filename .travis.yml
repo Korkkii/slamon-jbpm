@@ -4,8 +4,6 @@ jdk:
 cache:
   directories:
   - $HOME/.gradle
-env:
-- TERM=dumb
 notifications:
   webhooks:
     urls:
